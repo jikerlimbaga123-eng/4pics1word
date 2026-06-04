@@ -14,6 +14,16 @@ const DEFAULT_PUZZLES = [
   },
   {
     id: 'puzzle-2',
+    answer: 'BINIBINI',
+    images: [
+      'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&h=300&fit=crop',
+      'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=300&h=300&fit=crop',
+      'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=300&h=300&fit=crop',
+      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&h=300&fit=crop'
+    ]
+  },
+  {
+    id: 'puzzle-3',
     answer: 'BOOK',
     images: [
       'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=300&h=300&fit=crop',
@@ -23,7 +33,7 @@ const DEFAULT_PUZZLES = [
     ]
   },
   {
-    id: 'puzzle-3',
+    id: 'puzzle-4',
     answer: 'FIRE',
     images: [
       'https://images.unsplash.com/photo-1508873696983-2df519f0397e?w=300&h=300&fit=crop',
@@ -33,7 +43,7 @@ const DEFAULT_PUZZLES = [
     ]
   },
   {
-    id: 'puzzle-4',
+    id: 'puzzle-5',
     answer: 'RAIN',
     images: [
       'https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?w=300&h=300&fit=crop',
@@ -43,7 +53,7 @@ const DEFAULT_PUZZLES = [
     ]
   },
   {
-    id: 'puzzle-5',
+    id: 'puzzle-6',
     answer: 'TREE',
     images: [
       'https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=300&h=300&fit=crop',
