@@ -4,12 +4,12 @@ import React, { useState, useEffect, useRef } from 'react';
 const DEFAULT_PUZZLES = [
   {
     id: 'puzzle-1',
-    answer: 'SUN',
+    answer: 'MASARAP',
     images: [
-      'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=300&h=300&fit=crop',
-      'https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=300&h=300&fit=crop',
-      'https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?w=300&h=300&fit=crop',
-      'https://images.unsplash.com/photo-1595971291494-012022d1597a?w=300&h=300&fit=crop'
+      'https://i.imgur.com/vilgHgN.jpeg',
+      'https://i.imgur.com/vilgHgN.jpeg',
+      'https://i.imgur.com/vilgHgN.jpeg',
+      'https://i.imgur.com/vilgHgN.jpeg'
     ]
   },
   {
