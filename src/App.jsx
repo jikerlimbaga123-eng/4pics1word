@@ -87,6 +87,7 @@ export default function App() {
   // Modal / Lightbox / Sidepanel controls
   const [lightboxImg, setLightboxImg] = useState(null);
   const [editMode, setEditMode] = useState(false);
+  const [loadedPuzzleId, setLoadedPuzzleId] = useState(null);
 
   // Local editor draft state to avoid saving immediately on every typing keystroke
   const [editorPuzzles, setEditorPuzzles] = useState([]);
@@ -128,10 +129,12 @@ export default function App() {
       
     setLetterPool(scrambled);
     setIsSuccess(false);
+    setLoadedPuzzleId(activePuzzle.id);
   }, [currentIdx, puzzles, activePuzzle]);
 
   // --- AUTO ANSWER VALIDATION ---
   useEffect(() => {
+    if (loadedPuzzleId !== activePuzzle.id) return;
     if (guesses.length === 0 || guesses.includes(null) || isSuccess) return;
 
     const currentWord = guesses.map(g => g.letter).join('');
@@ -152,7 +155,7 @@ export default function App() {
       }, 700);
       return () => clearTimeout(timer);
     }
-  }, [guesses, activePuzzle, isSuccess]);
+  }, [guesses, activePuzzle, isSuccess, loadedPuzzleId]);
 
   // --- TAPPING ACTIONS ---
   const handleTileClick = (tile) => {
