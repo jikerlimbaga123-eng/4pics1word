@@ -6,60 +6,50 @@ const DEFAULT_PUZZLES = [
     id: 'puzzle-1',
     answer: 'MASARAP',
     images: [
+      'https://cdn-icons-png.flaticon.com/512/9154/9154733.png',
       'https://i.imgur.com/vilgHgN.jpeg',
-      'https://i.imgur.com/vilgHgN.jpeg',
-      'https://i.imgur.com/vilgHgN.jpeg',
-      'https://i.imgur.com/vilgHgN.jpeg'
+      'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d89607fd-aaa9-4ac9-aa6b-f79bb59f9177/d5du4y2-b6f94767-4a4b-4352-9631-36653a78d0a4.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi9kODk2MDdmZC1hYWE5LTRhYzktYWE2Yi1mNzliYjU5ZjkxNzcvZDVkdTR5Mi1iNmY5NDc2Ny00YTRiLTQzNTItOTYzMS0zNjY1M2E3OGQwYTQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.PP7AffY9tKeEOZDDfne4jbDtFeiBLzC1RB9VtzBuakY',
+      'https://www.aroundtheworldl.com/wp-content/uploads/2010/12/IMG_9473.jpeg'
     ]
   },
   {
     id: 'puzzle-2',
     answer: 'BINIBINI',
     images: [
-      'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&h=300&fit=crop',
-      'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=300&h=300&fit=crop',
-      'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=300&h=300&fit=crop',
-      'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&h=300&fit=crop'
-    ]
-  },
-  {
-    id: 'puzzle-3',
-    answer: 'BOOK',
-    images: [
-      'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=300&h=300&fit=crop',
-      'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=300&h=300&fit=crop',
-      'https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=300&h=300&fit=crop',
+      'https://dthezntil550i.cloudfront.net/fs/latest/fs2403292106483760019770723/1280_960/47975964-58d7-4b11-b732-bd81dd78c89b.png',
+      'https://i.imgur.com/bWb1uJ1.jpeg',
+      'https://img.pikbest.com/png-images/20250202/emoji-character-smiling-face-large-blue-eyes-holding-tulip-bouquet-colorful-tulips_11478091.png!bw700',
       'https://images.unsplash.com/photo-1512820790803-83ca734da794?w=300&h=300&fit=crop'
     ]
   },
   {
-    id: 'puzzle-4',
-    answer: 'FIRE',
+    id: 'puzzle-3',
+    answer: 'ANGCUTENIYO',
     images: [
-      'https://images.unsplash.com/photo-1508873696983-2df519f0397e?w=300&h=300&fit=crop',
-      'https://images.unsplash.com/photo-1520116468816-95b69f847357?w=300&h=300&fit=crop',
-      'https://images.unsplash.com/photo-1482005253821-5d6a2c685879?w=300&h=300&fit=crop',
-      'https://images.unsplash.com/photo-1516467508483-a7212febe31a?w=300&h=300&fit=crop'
+      'https://images.stockcake.com/public/f/5/1/f511e8a2-6416-4a20-839f-844a6d43c4c2_large/kawaii-happy-emoji-stockcake.jpg',
+      'https://i.imgur.com/J6sqSx7.jpeg',
+      'https://i.imgur.com/JkRLO4j.jpeg',
+      'https://miro.medium.com/v2/0*A7MUqyCLvZDcHkfM.jpg'
+    ]
+  },
+  {
+    id: 'puzzle-4',
+    answer: 'GORGEOUS',
+    images: [
+      'https://i.imgur.com/euQyxIW.jpeg',
+      'https://i.imgur.com/nzorYhB.jpeg',
+      'https://i.imgur.com/UatMp2O.jpeg',
+      'https://i.imgur.com/Q3B2niY.jpeg'
     ]
   },
   {
     id: 'puzzle-5',
-    answer: 'RAIN',
+    answer: 'WAGKANASIGIPANGAWAY',
     images: [
-      'https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?w=300&h=300&fit=crop',
-      'https://images.unsplash.com/photo-1534274988757-a28bf1a57c17?w=300&h=300&fit=crop',
-      'https://images.unsplash.com/photo-1428908728789-d2de25dbd4e2?w=300&h=300&fit=crop',
-      'https://images.unsplash.com/photo-1514632595861-4d918e39276c?w=300&h=300&fit=crop'
-    ]
-  },
-  {
-    id: 'puzzle-6',
-    answer: 'TREE',
-    images: [
-      'https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=300&h=300&fit=crop',
-      'https://images.unsplash.com/photo-1473448912268-2022ce9509d8?w=300&h=300&fit=crop',
-      'https://images.unsplash.com/photo-1507499739999-097706ad8914?w=300&h=300&fit=crop',
-      'https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=300&h=300&fit=crop'
+      'https://ih1.redbubble.net/image.4760278052.7783/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.webp',
+      'https://i.imgur.com/TvZ88hv.jpeg',
+      'https://media.tenor.com/zkvh5c3BkKoAAAAM/cute-adorable.gif',
+      'https://i.imgur.com/1l9deFR.jpeg'
     ]
   }
 ];
